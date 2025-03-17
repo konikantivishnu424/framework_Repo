@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.016" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="0.015" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="browser" value="chrome"/>
-    <property name="url" value="www.google.com"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\VISHNU\eclipse-workspace\SeleniumProject"/>
+    <property name="browser" value="firefox"/>
+    <property name="url" value="http://testenv.com"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\VISHNU\git\repository6\SeleniumProject"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\VISHNU\eclipse-workspace\SeleniumProject"/>
+    <property name="user.dir" value="C:\Users\VISHNU\git\repository6\SeleniumProject"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
     <property name="os.arch" value="amd64"/>
@@ -42,13 +42,13 @@
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="21"/>
-    <property name="password" value="vardhan"/>
-    <property name="username" value="hari"/>
+    <property name="password" value="manager"/>
+    <property name="username" value="admin"/>
     <property name="user.name" value="VISHNU"/>
     <property name="java.class.path" value="C:\Automationsoftware\apache-maven-3.9.9\boot\plexus-classworlds-2.8.0.jar"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P RT -Durl=www.google.com -Dbrowser=chrome -Dusername=hari -Dpassword=vardhan"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P RT -Durl=http://testenv.com -Dbrowser=firefox -Dusername=admin -Dpassword=manager"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -66,6 +66,6 @@
   </properties>
   <testcase name="createContactTest" classname="Pac1.ContactTest" time="0.012"/>
   <testcase name="modifyContactTest" classname="Pac1.ContactTest" time="0.001"/>
-  <testcase name="CreateOrgTest" classname="Pac2.OrgTest" time="0.002"/>
+  <testcase name="CreateOrgTest" classname="Pac2.OrgTest" time="0.001"/>
   <testcase name="ModifyOrgTest" classname="Pac2.OrgTest" time="0.001"/>
 </testsuite>
